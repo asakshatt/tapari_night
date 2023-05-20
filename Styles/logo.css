@@ -366,7 +366,12 @@ p{
   font-family: 'Darumadrop One', cursive;
 }
 
+.card img {
+  height: 200px;
+ margin: 0 auto;
+}
+  
 img {
   max-width: 50%;
- margin: 0 auto;
+  margin: 0 auto;
 }
