@@ -341,16 +341,14 @@ font-family: 'Tangerine', cursive;
   display: flex;
 
 
- 
 
-  .card{
+}
+.card{
     
-    display: flex;
-    padding: 10px;
-   
-    
-    
-  }
+  display: flex;
+  padding: 10px;
+ 
+  
 }
 .scrolling-wrapper::-webkit-scrollbar {
   display: none;
