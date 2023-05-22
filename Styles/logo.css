@@ -13,9 +13,7 @@ body {
  margin-top: 10rem;
  flex-direction: column;
  padding: 0;
-
-
-background-color: beige;
+ background-color: beige;
 }
 .logo {
   display: flex;
@@ -338,24 +336,29 @@ font-family: 'Tangerine', cursive;
 
 
 .scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: flex;
  
-  
+  overflow-x: auto;
+  display: flex;
+
+
  
 
   .card{
-    display: inline-block;
+    
     display: flex;
     padding: 10px;
+   
     
     
   }
 }
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
 .scrolling-wrapper {
   -webkit-overflow-scrolling: touch;
 }
+
 
 img {
   display: flex;
@@ -384,3 +387,5 @@ video {
   
   
 }
+
+
